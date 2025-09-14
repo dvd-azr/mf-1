@@ -30,7 +30,8 @@ export default defineConfig({
     // You need to set a unique value that is not equal to other applications
     uniqueName: "mf_1",
     // publicPath must be configured if using manifest
-    publicPath: "http://localhost:52331/dist/",
+    publicPath: "https://dvd-azr.github.io/mf-1/",
+    path: path.resolve(__dirname, 'docs'), // Specify your desired output directory here
   },
 
   experiments: {
